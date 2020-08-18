@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User_info"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_waves"
+        android:padding="0dp">
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginBottom="0sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            app:srcCompat="@drawable/ic_account_circle" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/nameLayout"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/ic_perm_identity"
+                android:id="@+id/nameField"
+                android:hint="Name"
+                android:inputType="textPersonName"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/phoneLayout"
+            android:layout_marginTop="20sp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/ic_phone_green"
+                android:id="@+id/phoneField"
+                android:hint="Mobile Number"
+                android:inputType="number"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/carnameLayout"
+            android:layout_marginTop="20sp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_car"
+                android:textSize="15sp"
+                android:padding="8dp"
+                android:id="@+id/carName"
+                android:hint="Car Name"
+                android:inputType=""/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/carnumberLayout"
+            android:layout_marginTop="20sp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:id="@+id/carNumber"
+                android:hint="Car Number"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--    <EditText-->
+<!--        android:id="@+id/nameField"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="20sp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Name"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:autofillHints="" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/phoneField"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="20sp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Mobile No."-->
+<!--        android:inputType="phone"-->
+<!--        android:autofillHints="" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/carName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:layout_marginBottom="20sp"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:hint="Car Name" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/carNumber"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="20sp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:hint="Car Number" />-->
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="220dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp"
+        android:layout_marginTop="30sp"
+
+        android:text="DONE"
+        android:background="@drawable/round_button"/>
+    </LinearLayout>
+</LinearLayout>

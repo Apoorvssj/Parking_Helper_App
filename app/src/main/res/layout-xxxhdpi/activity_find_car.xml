@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindCar">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/semi_circle"
+    android:padding="0dp">
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/first"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="bold"/>-->
+</RelativeLayout>
+
+<!--<androidx.appcompat.widget.Toolbar-->
+<!--android:id="@+id/tool"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="40dp"-->
+<!--app:title="">-->
+
+<!--&lt;!&ndash;        <androidx.appcompat.widget.SearchView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/search"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="240dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:queryHint="Enter Car Number" />&ndash;&gt;-->
+<!--</androidx.appcompat.widget.Toolbar>-->
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorWhite"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/first"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+<com.google.android.material.card.MaterialCardView
+android:layout_width="310dp"
+android:layout_height="450dp"
+android:layout_marginTop="160dp"
+android:layout_gravity="center_horizontal"
+app:cardCornerRadius="22dp"
+app:cardElevation="10dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginEnd="5dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:elevation="10dp"-->
+<!--        android:src="@android:drawable/ic_menu_mylocation" />-->
+</RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
+<Button
+android:id="@+id/go"
+android:layout_width="250dp"
+android:layout_height="wrap_content"
+android:layout_marginTop="640dp"
+android:layout_gravity="center_horizontal"
+android:background="@drawable/round_button"
+android:text="Go to main page" />
+
+
+
+
+
+
+
+
+
+</FrameLayout>

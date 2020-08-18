@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+            android:title="Search"
+            android:icon="@drawable/ic_search"
+           app:showAsAction="ifRoom|collapseActionView"
+           app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+
+
+        <item android:id="@+id/find"
+            android:title="Find Your Car"
+            app:showAsAction="never"
+           /> <item android:id="@+id/logout"
+            android:title="Logout"
+            app:showAsAction="never"
+           />
+    <item android:id="@+id/info"
+        android:title="Update Profile"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/delete"
+        android:title="Delete Account"
+        app:showAsAction="never"/>
+    <item android:id="@+id/contact_us"
+        android:title="Contact us"
+        app:showAsAction="never"/>
+
+
+    </menu>

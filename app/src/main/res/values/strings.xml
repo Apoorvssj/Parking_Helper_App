@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Experiment</string>
+    <string name="title_activity_map">Map</string>
+    <string name="location_search">Location Search</string>
+    <string name="todo">TODO</string>
+
+</resources>

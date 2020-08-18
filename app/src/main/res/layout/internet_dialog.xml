@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_round">
+
+    <TextView
+        android:id="@+id/dialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="No Internet Connection"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/dialog1"
+        android:src="@drawable/nowifi"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nowifi"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You need to be connected to wifi/mobile network in order to use this application.Press ok to exit."
+        android:layout_below="@+id/nowifi"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dialog2"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog2"
+        android:layout_alignEnd="@id/dialog2"
+        android:layout_marginTop="10dp"
+        android:text="OK"
+        android:id="@+id/ok"/>
+
+
+
+
+
+</RelativeLayout>
