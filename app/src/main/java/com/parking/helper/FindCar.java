@@ -163,7 +163,7 @@ public class FindCar extends AppCompatActivity implements OnMapReadyCallback {
 //        };
 
         interstitialAd2 = new InterstitialAd(this);
-        interstitialAd2.setAdUnitId(getString(R.string.interstitial_ad2));
+        interstitialAd2.setAdUnitId(getString(R.string.interstitial_ad1));
         interstitialAd2.loadAd(new AdRequest.Builder().build());
         interstitialAd2.setAdListener(new AdListener(){
             @Override

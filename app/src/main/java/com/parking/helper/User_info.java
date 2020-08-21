@@ -143,7 +143,7 @@ int i = 0;
         });
 
         interstitialAd4 = new InterstitialAd(this);
-        interstitialAd4.setAdUnitId(getString(R.string.interstitial_ad4));
+        interstitialAd4.setAdUnitId(getString(R.string.interstitial_ad1));
         interstitialAd4.loadAd(new AdRequest.Builder().build());
         interstitialAd4.setAdListener(new AdListener(){
             @Override

@@ -140,7 +140,7 @@ public class OtherUser extends AppCompatActivity {
         });
 
         interstitialAd3 = new InterstitialAd(this);
-        interstitialAd3.setAdUnitId(getString(R.string.interstitial_ad3));
+        interstitialAd3.setAdUnitId(getString(R.string.interstitial_ad1));
         interstitialAd3.loadAd(new AdRequest.Builder().build());
         interstitialAd3.setAdListener(new AdListener(){
             @Override

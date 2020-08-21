@@ -65,7 +65,7 @@
             android:gravity="center_horizontal"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:text="Like our product? or found a bug wanna report,or wanna have a feature in mind you would like to have in this appand tell us about,then contact us ,by mailing us."
+            android:text="Like our product? or found a bug wanna report,or wanna have a feature in mind you would like to have in this app and tell us about,then contact us ,by mailing us."
 
             />
 
