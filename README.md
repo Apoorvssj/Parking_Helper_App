@@ -1,9 +1,9 @@
 # Parking-Helper
 Parking Helper is a parking assist application that lets you find a parking spot in an instant!
 
-Find exactly where you parked your car! or contact other car owners ,from the app.
+Find exactly where you parked your car,from anywhere!! ,just when you return from your work/shopping/or from an exciting match in a stadium ,just open the app and , find exactly where you parked your car!
 
-Parking Helper also lets you contact other users if their car is blocking your home parking spot.
+Parking Helper also lets you contact other users from the app if their car is blocking your home parking spot,or parked in your private property.
 
 FEATURES:
 >Reclaim your spot by contacting other users ,just by car number or by using google maps in the app.
