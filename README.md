@@ -15,6 +15,9 @@ FEATURES:
 If you can't find the user who parked in your spot, there's a good chance they aren't using this app.
 So share with your friends and make parking car easier for everyone!
 
+## ScreenShots
+![image](https://github.com/Apoorvssj/Parking_Helper_App/tree/master/readmeAssets/20200813_204141.jpg)
+
 
 ## HOW TO USE:
 >Before scanning for other users,you need to first register your current location by taping the current location button,located on top right of the google map on the main page of the app.
