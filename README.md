@@ -15,6 +15,18 @@ FEATURES:
 If you can't find the user who parked in your spot, there's a good chance they aren't using this app.
 So share with your friends and make parking car easier for everyone!
 
+## Screenshots
+<p align="center">
+<img src="readmeAssets/20200813_204141.jpg" width="20%" hspace="2">
+<img src="readmeAssets/Screenshot_20200813-210556.jpg" width="20%" hspace="2">
+<img src="readmeAssets/20200813_204255.jpg" width="20%" hspace="2">
+<img src="readmeAssets/20200813_204325.jpg" width="20%" hspace="2">
+<img src="readmeAssets/20200813_204401.jpg" width="20%" hspace="2">
+<img src="readmeAssets/20200813_204429.jpg" width="20%" hspace="2">
+<img src="readmeAssets/20200813_204218.jpg" width="20%" hspace="2">
+</p>
+
+
 ## HOW TO USE:
 >Before scanning for other users,you need to first register your current location by taping the current location button,located on top right of the google map on the main page of the app.
 
