@@ -16,7 +16,7 @@ If you can't find the user who parked in your spot, there's a good chance they a
 So share with your friends and make parking car easier for everyone!
 
 ## ScreenShots
-![<img align="left" alt="LinkedIn" width="100px" src="https://github.com/Apoorvssj/Parking_Helper_App/tree/master/readmeAssets/20200813_204141.jpg" />](https://github.com/Apoorvssj/Parking_Helper_App/tree/master/readmeAssets/20200813_204141.jpg)
+[<img align="left" alt="LinkedIn" width="100px" src="https://github.com/Apoorvssj/Parking_Helper_App/tree/master/readmeAssets/20200813_204141.jpg" />](https://github.com/Apoorvssj/Parking_Helper_App/tree/master/readmeAssets/20200813_204141.jpg)
 
 
 ## HOW TO USE:
