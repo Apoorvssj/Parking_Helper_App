@@ -15,7 +15,8 @@ FEATURES:
 If you can't find the user who parked in your spot, there's a good chance they aren't using this app.
 So share with your friends and make parking car easier for everyone!
 
-HOW TO USE:
+
+## HOW TO USE:
 >Before scanning for other users,you need to first register your current location by taping the current location button,located on top right of the google map on the main page of the app.
 
 >After registering your car location, you can use Scan for other users feature. ,whenever you like.
@@ -30,7 +31,7 @@ HOW TO USE:
 
 >If you delete your account from clicking delete my account from the menu on the main page of app, all of your data will be deleted.
 
-Download Link - https://play.google.com/store/apps/details?id=com.parking.helper
+### Download Link - https://play.google.com/store/apps/details?id=com.parking.helper
 
-Copyright notice -
+### Copyright notice -
 All rights to Parking Helper App are reserved to Quanta Devs.You can join the team for app development if you want.Contact us at- quantaappdevs@gmail.com
